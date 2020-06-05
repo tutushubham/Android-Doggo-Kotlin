@@ -4,9 +4,9 @@ Android JetPack Libraries Example
 
 This project has been developed by completing the Udemy Course of 
 
-Android Jetpack masterclass in Kotlin and provided by Catalin Stefan. The project includes example about:
+Android Jetpack masterclass in Kotlin and provided by Catalin Stefan. The project includes examples about:
 
-Android JetPack Libaries:
+Android JetPack Libraries:
 - ViewModel
 - Lifecycle 
 - Palette
@@ -20,8 +20,7 @@ Android JetPack Libaries:
 - Preferences
 - Shared Preferences
 
-In order to retrived data and make HTTP calls the Retrofit2 library has been used. Application was developed by using MVVM pattern
-During the development the above mentioned JetPack Libraries was used. 
+In order to retrieve data and make HTTP calls the Retrofit2 library has been used. The application was developed by using MVVM pattern During the development of the above mentioned JetPack Libraries was used.
 
 Application consumes data from the endpoint of:
 https://raw.githubusercontent.com/DevTides/DogsApi/master/dogs.json
