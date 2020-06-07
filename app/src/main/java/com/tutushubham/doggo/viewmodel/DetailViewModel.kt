@@ -2,7 +2,6 @@ package com.tutushubham.doggo.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import com.tutushubham.doggo.model.DogBreed
 import com.tutushubham.doggo.model.DogDatabase
 import kotlinx.coroutines.launch
@@ -10,7 +9,7 @@ import kotlinx.coroutines.launch
 
 class DetailViewModel(application: Application) : BaseViewModel(application) {
 
-    val dogLiveData = MutableLiveData<DogBreed>()
+    val dogLiveData = MutableLiveData<DogBreed>()//livedata created
 
     fun fetch(uuid: Int) {
         launch {
